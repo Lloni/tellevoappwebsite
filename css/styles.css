@@ -1,8 +1,3 @@
-/*---------------------------------
-Author: webthemez.com
-All rights reserved, plz donate and remove the back-link form the website.
------------------------------------*/
-
 body {
 font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 font-size: 17px;
@@ -42,9 +37,9 @@ border-color: #007BD3;
 }
 .button {
 color: white;
-background: #0379CD;
+background: #FFB800;
 height: 58px;
-border: 2px solid #0379CD;
+border: 2px solid #FFB800;
 font: 500 22px "Raleway", "Helvetica Neue", Helvetica, Arial, sans-serif;
 padding: 0 21px;
 -moz-transition: color 0.1s linear, background-color 0.1s linear, border-color 0.1s linear;
@@ -120,7 +115,7 @@ padding-bottom: 100px;
 padding: 30px 0;
 margin-bottom: 0;
 color: white;
-background:#003664;
+background:#1A1A1A;
 background-size: cover;
 text-align: center;
 background:url(../images/bg.jpg) top left repeat;
@@ -193,8 +188,9 @@ height: auto;
 margin-top: 20px;
 margin-bottom: 30px; 
 }
+
 .ourFeatures {
-  background: #5EB920;
+  background: #1A1A1A;
   text-align: left;
   padding: 100px 0 0;
 }
@@ -202,7 +198,7 @@ margin-bottom: 30px;
 color:#fff;
 }
 .ourFeatures p{
-color:#E2FFCF;
+color:#cccccc;
 }
 .ourFeatures .row.row-padding {
   padding-top: 40px;
@@ -228,31 +224,7 @@ padding-bottom: 8px !important;
 margin-top:150px;
 margin-bottom:0px;
 }
-.subscribe {
-background: #1F1F1F;
-text-align: center;
-padding: 100px 0;
-background-size: cover;
-color: white;
-display:block;
-}
-.subscribe h2{
-color:#fff;
-}
-.subscribe input{
-padding: 20px 10px;
-width: 350px;
-}
-.subscribe button{
-color: white;
-background: #0379CD;
-margin: 0px;
-padding: 10px 20px;
-margin-left: -10px;
-}
-.subscribe-description { 
-padding: 40px 0;
-}
+
 .footer-section {
 background: white;
 text-align: left;
@@ -280,10 +252,10 @@ display: block;
 float:right;
 }
 .social-icons a{ 
-color: #64b51b;
+color: #1A1A1A;
 text-decoration: none;
 padding: 0px 0 0 15px;
-border: 1px solid #64b51b;
+border: 1px solid #1A1A1A;
 border-radius: 50%;
 width: 45px;
 float: left;
