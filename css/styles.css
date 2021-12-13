@@ -329,17 +329,6 @@ display: none;
 }
 
 
-html[data-useragent*='/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i'] .mainBanner .buttons-wrapper .button {
-  display: inline-block;
-}
-
-html[data-useragent*='/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i'] .mainBanner .buttons-wrapper .linkqr {
-  display: none;
-}
-
-.mainBanner .buttons-wrapper .button {
-  display: none;
-}
 
 .mainBanner .buttons-wrapper .linkqr {
   display: block;
@@ -361,3 +350,4 @@ html[data-useragent*='/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera 
   padding: 3px;
   width: 100%;
 }
+
