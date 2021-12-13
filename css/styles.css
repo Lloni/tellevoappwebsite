@@ -126,7 +126,7 @@ display:block;
 width: auto;
 height: auto;
 margin-top: 50px;
-margin-bottom: 170px;
+margin-bottom: 100px;
 }
 .mainBanner h1, .mainBanner .h1 {
 font-size: 35px;
@@ -278,7 +278,7 @@ overflow: hidden;
 @media (max-width: 1200px){
 .mainBanner .img-logo{
 margin-top:0px;
-margin-bottom: 81px;
+margin-bottom: 51px;
 }
 .mainBanner .img-iPhone {
 width: 376px;
@@ -297,6 +297,7 @@ margin: 0;
 }
 .mainBanner .img-iPhone { 
 width: 340px;
+display: none;
 }
 .highlights{
 padding-top:0;
@@ -325,4 +326,38 @@ position: relative;
 bottom: -30px;
 display: none;
 }
+}
+
+
+html[data-useragent*='/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i'] .mainBanner .buttons-wrapper .button {
+  display: inline-block;
+}
+
+html[data-useragent*='/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i'] .mainBanner .buttons-wrapper .linkqr {
+  display: none;
+}
+
+.mainBanner .buttons-wrapper .button {
+  display: none;
+}
+
+.mainBanner .buttons-wrapper .linkqr {
+  display: block;
+  background-color: #FFB800;
+  width: 200px;
+  border: solid 20px #FFB800;
+  border-radius: 10px;;
+}
+
+.mainBanner .buttons-wrapper .linkqr p {
+  text-align: center;
+  font-weight: 600;
+  font-size: 15px;
+  color: #1A1A1A;
+  padding: 5px;
+}
+
+.mainBanner .buttons-wrapper .linkqr .qr {
+  padding: 3px;
+  width: 100%;
 }

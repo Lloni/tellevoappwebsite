@@ -15,3 +15,7 @@ $(function() {
   }); 
   
 });
+
+var b = document.documentElement;
+              b.setAttribute('data-useragent',  navigator.userAgent);
+              b.className += ((!!('ontouchstart' in window) || !!('onmsgesturechange' in window))?' touch':'');
