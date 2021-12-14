@@ -33,9 +33,11 @@ function detectMob() {
 };
 console.log(detectMob());
 if (detectMob()) {
-  document.getElementById("boton").classList.remove("hide")
+  document.getElementById("boton").classList.remove("hide");
+  document.getElementById("boton2").classList.remove("hide")
 } else {
   document.getElementById("qr").classList.remove("hide")
+  document.getElementById("qr2").classList.remove("hide")
 }
 
 
