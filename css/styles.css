@@ -322,19 +322,20 @@ color: #E9FAFF;
 text-transform: uppercase; 
 display: inline-block;
 } 
-.highlights { 
-margin-top: -100px !important;
+#section-1 { 
+margin-top: 100px !important;
 }
 .mainBanner img.img-app {
 position: relative;
 bottom: -30px;
 display: none;
 }
+
 }
 
 
 
-.mainBanner .buttons-wrapper .linkqr {
+.buttons-wrapper .linkqr {
   display: block;
   background-color: #FFB800;
   width: 200px;
@@ -342,7 +343,7 @@ display: none;
   border-radius: 10px;;
 }
 
-.mainBanner .buttons-wrapper .linkqr p {
+.buttons-wrapper .linkqr p {
   text-align: center;
   font-weight: 600;
   font-size: 15px;
@@ -350,10 +351,16 @@ display: none;
   padding: 5px;
 }
 
-.mainBanner .buttons-wrapper .linkqr .qr {
+.buttons-wrapper .linkqr .qr {
   padding: 3px;
   width: 100%;
 }
+
+.featuresBtm .buttons-wrapper .linkqr .qr2 {
+  padding: 3px;
+  width: 100%;
+}
+
 
 h1, h2, h3, h4 {
   font-family: "Merriweather", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
@@ -365,6 +372,6 @@ h1, h2, h3, h4 {
 
 .highlightsCol .fas {
   font-size: 65px;
-color: #162e46;
+  color: #162e46;
 }
 
